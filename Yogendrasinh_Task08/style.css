@@ -65,9 +65,7 @@ button{
     justify-self: end;
     font-size: 18px;
     gap: 10px;
-}
-#menu{
-    display: none;
+    background: transparent;
 }
 
 @media(max-width:375px) {
@@ -93,12 +91,18 @@ button{
         padding: 20px;
         font-size: 50px;
         gap: 100px;
+        transform: translateX(100%);
+        opacity: 0;
+        pointer-events: none;
     }
      
-     #menu:checked~.nav-link{
+     .hamburger:focus~.nav-link{
         display: flex;
         justify-content: center;
         align-content: center;
+         transform: translateX(0);
+        opacity: 4;
+        pointer-events: auto;
      }
     .hero{
         width: 100vw;
