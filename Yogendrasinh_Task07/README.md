@@ -1,4 +1,4 @@
-# Task-05: Responsive Landing Page
+# Task-07: Responsive Landing Page
 
 ## Description
 Created a simple landing page using HTML and CSS. The webpage contains a navigation bar and a hero section for a laundry service website.
