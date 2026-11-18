@@ -1,3 +1,6 @@
+body{
+    overflow: hidden;
+}
 .midbar {
     width: 100%;
     overflow: auto;
