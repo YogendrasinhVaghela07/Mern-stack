@@ -72,9 +72,6 @@ button{
     .hamburger{
         display: block;
     }
-    body{
-        overflow: hidden;
-    }
     .midbar{
         overflow:auto;
         
